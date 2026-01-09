@@ -425,7 +425,7 @@ h4 { font-size: var(--font-size-xl); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-sm) 0;
+  padding: var(--space-md) 0;
 }
 
 .header__logo {
@@ -450,7 +450,7 @@ h4 { font-size: var(--font-size-xl); }
 .header__nav {
   display: flex;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-lg);
 }
 
 .header__nav a {
@@ -479,7 +479,7 @@ h4 { font-size: var(--font-size-xl); }
 .header__cta {
   display: flex;
   align-items: center;
-  gap: var(--space-sm);
+  gap: var(--space-md);
 }
 
 .header__phone {
@@ -530,7 +530,7 @@ h4 { font-size: var(--font-size-xl); }
   align-items: center;
   background: var(--bg-gradient-hero);
   overflow: hidden;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 .hero__background {
