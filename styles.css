@@ -168,9 +168,9 @@ h4 { font-size: var(--font-size-xl); }
    ===================== */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 var(--space-lg);
+  padding: 0 var(--space-md);
 }
 
 .section {
@@ -435,27 +435,30 @@ h4 { font-size: var(--font-size-xl); }
 }
 
 .header__logo img {
-  height: 50px;
+  height: 40px;
   width: auto;
 }
 
 .header__logo-text {
   font-family: var(--font-heading);
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base);
   font-weight: 700;
   color: var(--color-primary);
+  white-space: nowrap;
 }
 
 .header__nav {
   display: flex;
   align-items: center;
-  gap: var(--space-xl);
+  gap: var(--space-md);
 }
 
 .header__nav a {
   font-weight: 500;
   color: var(--color-text);
   position: relative;
+  white-space: nowrap;
+  font-size: var(--font-size-sm);
 }
 
 .header__nav a::after {
@@ -476,7 +479,7 @@ h4 { font-size: var(--font-size-xl); }
 .header__cta {
   display: flex;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-sm);
 }
 
 .header__phone {
@@ -485,11 +488,18 @@ h4 { font-size: var(--font-size-xl); }
   gap: var(--space-xs);
   font-weight: 700;
   color: var(--color-terracotta);
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base);
+  white-space: nowrap;
 }
 
 .header__phone i {
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-sm);
+}
+
+.header__cta .btn {
+  padding: var(--space-sm) var(--space-md);
+  font-size: var(--font-size-sm);
+  white-space: nowrap;
 }
 
 /* Mobile menu */
